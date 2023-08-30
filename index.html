@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Debian/Ubuntu repository</title>
+  </head>
+  <body>
+    <h1>Debian/Ubuntu repository</h1>
+    <p>Add the following lines to your sources.list file</p>
+    <code>
+      deb http://odw-ppa.soraxem.ch/odw-os trusty main
+      <br>
+      deb-src http://odw-ppa.soraxem.ch/odw-os trusty main
+    </code>
+    Where trusty can be:
+    <ul>
+      <li>trusty</li>
+    </ul>
+    You might also want the security key. Get it:
+    <code>
+		sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys PUBKEYS
+    </code>
+    
+  </body>
+</html>
