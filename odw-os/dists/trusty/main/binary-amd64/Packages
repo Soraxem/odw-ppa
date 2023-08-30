@@ -1,0 +1,14 @@
+Package: rustdesk
+Architecture: amd64
+Version: 1.2.2
+Maintainer: rustdesk <info@rustdesk.com>
+Depends: libgtk-3-0, libxcb-randr0, libxdo3, libxfixes3, libxcb-shape0, libxcb-xfixes0, libasound2, libsystemd0, curl, libva-drm2, libva-x11-2, libvdpau1, libgstreamer-plugins-base1.0-0, libpam0g, libappindicator3-1, gstreamer1.0-pipewire
+Filename: pool/main/rustdesk_amd64.deb
+Size: 17912876
+MD5sum: 5692857b2cdd2a313a8880a5ca602556
+SHA1: c265363ae2c0946e9f5bc90f9d73e25c9a9ee795
+SHA256: 5626962f3c603a44228537bc70ec63e7f65cb3e4df3d0476d20f1f20989eab9e
+SHA512: a5168072b4c52f3167f33215c57597c975fca61bea6186090d2c51988aba775f31378987c1ce9c7932a156503e318ec7b8373b9e57b637d5501e6dfc9c414398
+Homepage: https://rustdesk.com
+Description: A remote control software.
+
